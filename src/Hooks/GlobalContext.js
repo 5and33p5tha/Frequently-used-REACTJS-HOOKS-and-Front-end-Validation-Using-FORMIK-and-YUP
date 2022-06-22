@@ -22,6 +22,7 @@ const GlobalContextProvider = (props) => {
       {/* GlobalContext is our user defined variable. and .PROVIDER IS A BUILT IN REACT HOOKS FUNCTION */}
 
       {props.children}
+      {/* props.children is for any component that uses or will use global context */}
       {/* This is for everything that props holds. For everything  inside props*/}
       {/* This is also a react hooks function */}
     </GlobalContext.Provider>
@@ -30,3 +31,17 @@ const GlobalContextProvider = (props) => {
 
 export default GlobalContextProvider;
 //Note, we can only use one export default.
+
+//Generally, globalContext Wraps My Routes, Global Context  is then wrapped inside App.js and this App.js is called in index.js
+//i.e
+//App.js -> rafce = {
+//<globalcontext>
+//<MyRoutes>
+//<Pages...>
+//</MyRoutes>
+// </globalcontext>
+// }
+//and, call app.js in index.js i.e
+//index.js -> rafce = {
+// app.js
+// }

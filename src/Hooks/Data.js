@@ -146,3 +146,16 @@ const Data = () => {
 };
 
 export default Data;
+
+//useState - State Changes and Re-render OWN VALUE
+//useEffect - Side Effect After State Changes i.e AFFTECT OTHER COMPONENTS/PAGES
+//useStyle - CREATE Custom CSS Style for our page
+//useContext - For Global Context
+//useParams - For params.id, Take URL VALUES
+//useNavigate - Same AS LINK but no need to click or any action, CAN BE SET AFTER FUNCTION TO GO THERE AUTOMATICALLY
+//useRef - References for Files, Select and TO RESET THEM. USED IN IMAGE HANDLING IN GUIDED-PROJECT
+//useLocation
+//useHistory
+//usePathname
+
+//and many more
