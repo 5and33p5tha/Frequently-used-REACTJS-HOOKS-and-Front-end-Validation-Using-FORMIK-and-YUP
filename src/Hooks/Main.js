@@ -14,7 +14,7 @@ const Main = () => {
       {/* Everytime Context IS Called, These Following Should Be Called */}
       <GlobalContextProvider>
         {/* <UseGlobalContext></UseGlobalContext> */}
-        <UseGlobalContext />{" "}
+        <UseGlobalContext />
         {/* This UseGlobalContext is just a component like any other components */}
         {/* Generally, we use MyRoutes <MyRoutes></MyRoutes> Here as it will leave an opportunity for all to use global context */}
       </GlobalContextProvider>
